@@ -1,0 +1,73 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="6dp"
+    android:padding="16dp"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:spacing="8dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09.12.2024"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/destination_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination:"
+            android:textColor="@color/teal_750"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_end_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Location"
+            android:textColor="@color/teal_750"
+            android:textSize="18sp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="2dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/viewRideButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Ride On Map"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:padding="3dp"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

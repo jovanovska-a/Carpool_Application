@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CARPOOL</string>
+    <string-array name="driver_menu_options">
+        <item>Change Info</item>
+        <item>Change Intervals</item>
+    </string-array>
+    <string-array name="menu_options">
+        <item>Home</item>
+    </string-array>
+</resources>
